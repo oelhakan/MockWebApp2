@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://mockwebapp2.database.windows.net:1433;database=mockwebapp2;user=onurelhakan@mockwebapp2;password=5343597721Min*;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: onurelhakan
+    password: 5343597721Min*
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 9191
+
+
